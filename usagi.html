@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+		<title>usagi</title>
+		<style>
+			body {
+				background-color: #000;
+			}
+			#usagi canvas {
+				padding: 0;
+				background-color: transparent;
+				position: fixed;
+				right: -11%;
+				top: 300px;
+				z-index: 999999;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id="test">hello</h1>
+		<div id="usagi"></div>
+		<script type="module" src="./usagi.js"></script>
+	</body>
+</html>
