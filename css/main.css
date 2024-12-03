@@ -1,0 +1,7 @@
+#usagi canvas {
+  padding: 0;
+  background-color: transparent;
+  position: fixed;
+  right: -11%;
+  z-index: 999999;
+}
