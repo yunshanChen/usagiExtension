@@ -1,6 +1,6 @@
 # usagiExtension
 
-usagi play around your browser(chrome)!
+這是一個chrome瀏覽器擴充功能，他會讓一隻烏薩奇在你的畫面上移動。這東西有什麼用處？沒有，就看了心情好，使用瀏覽器的時候有烏薩奇陪你。工作時使用，讓你效率提升200％。
 
 ## 安裝方法
 
