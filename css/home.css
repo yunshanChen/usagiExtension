@@ -1,0 +1,71 @@
+:root {
+	font-size: 16px;
+}
+body {
+	width: 500px;
+	padding: 1rem;
+	/* 動作設定 */
+	.movement-setting {
+		p {
+			font-size: 1rem;
+		}
+		.settting {
+			margin-left: 1rem;
+			/* 動作設定表 */
+			.movement-list .movement {
+				display: flex;
+				font-size: 1rem;
+				& > div {
+					display: flex;
+				}
+				&.title {
+					font-weight: 800;
+				}
+				.name {
+					width: 3rem;
+				}
+				.weight,
+				.duration {
+					width: 10rem;
+					height: 2rem;
+					position: relative;
+					span {
+						content: '';
+						position: absolute;
+						top: -0.8rem;
+						color: brown;
+					}
+				}
+				.percent {
+					width: 5rem;
+				}
+			}
+			/* 按鈕 */
+			.buttons {
+				display: flex;
+				gap: 0.5rem;
+			}
+		}
+		.buttons {
+			margin-top: 0.5rem;
+			button:first-child {
+				margin-left: auto;
+			}
+		}
+	}
+	/* 設定說明 */
+	.info {
+		ul li {
+			font-size: 16px;
+		}
+	}
+}
+
+/* 通用設定 */
+section {
+	margin-bottom: 1rem;
+}
+/* 計算公式 */
+.caculate {
+	color: blueviolet;
+}
